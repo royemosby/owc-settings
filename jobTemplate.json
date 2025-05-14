@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "Job Template",
+  "behavior": "create",
+  "noteContentFormat": "# {{title}}\n\n{{content}}",
+  "properties": [
+    {
+      "name": "source",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "tags",
+      "value": "job",
+      "type": "multitext"
+    },
+    {
+      "name": "parent",
+      "value": "[[Job Hunt 2025/Jobs/Jobs|Jobs]]",
+      "type": "text"
+    },
+    {
+      "name": "doctype",
+      "value": "job",
+      "type": "text"
+    },
+    {
+      "name": "applicationStatus",
+      "value": "notStarted",
+      "type": "text"
+    },
+    {
+      "name": "statusDate",
+      "value": "{{date}}",
+      "type": "text"
+    }
+  ],
+  "triggers": [],
+  "noteNameFormat": "Job - {{title}}",
+  "path": "Doom Box/Clippings"
+}

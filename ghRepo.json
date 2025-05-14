@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "GitHub Repo",
+  "behavior": "create",
+  "noteContentFormat": "[{{title}}]({{url}})",
+  "properties": [
+    {
+      "name": "tags",
+      "value": "repo",
+      "type": "multitext"
+    }
+  ],
+  "triggers": [
+    "https://github.com"
+  ],
+  "noteNameFormat": "{{title}}",
+  "path": "Doom Box/Clippings"
+}

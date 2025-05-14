@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "Capture Link",
+  "behavior": "create",
+  "noteContentFormat": "# {{title}}\n\n({{title}})[{{url}}]\n{{description}}",
+  "properties": [
+    {
+      "name": "parent",
+      "value": "[[Unsorted Notes]]",
+      "type": "text"
+    },
+    {
+      "name": "tags",
+      "value": "clipping",
+      "type": "multitext"
+    }
+  ],
+  "triggers": [],
+  "noteNameFormat": "{{title}}",
+  "path": "Doom Box/Clippings"
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "Recipe",
+  "behavior": "create",
+  "noteContentFormat": "{{content}}",
+  "properties": [
+    {
+      "name": "title",
+      "value": "{{title}}",
+      "type": "text"
+    },
+    {
+      "name": "source",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "author",
+      "value": "{{author|split:\\\", \\\"|wikilink|join}}",
+      "type": "multitext"
+    },
+    {
+      "name": "published",
+      "value": "{{published}}",
+      "type": "date"
+    },
+    {
+      "name": "dateCreated",
+      "value": "{{date}}",
+      "type": "text"
+    },
+    {
+      "name": "description",
+      "value": "{{description}}",
+      "type": "text"
+    },
+    {
+      "name": "tags",
+      "value": "recipe, clipping",
+      "type": "multitext"
+    },
+    {
+      "name": "parent",
+      "value": "[[Recipes]]",
+      "type": "text"
+    },
+    {
+      "name": "draftStatus",
+      "value": "web clipping",
+      "type": "text"
+    }
+  ],
+  "triggers": [],
+  "noteNameFormat": "{{title}}",
+  "path": "Doom Box/Clippings"
+}
